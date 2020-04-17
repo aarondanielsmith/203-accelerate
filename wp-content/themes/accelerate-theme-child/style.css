@@ -44,6 +44,10 @@ Text Domain:  accelerate-theme-child
     color: #fff;
 }
 
+.menu-item i._mi {
+    margin-top: 0;
+}
+
 /********** HOME PAGE **********/
 
 .home-page {
@@ -67,8 +71,9 @@ Text Domain:  accelerate-theme-child
 .featured-work ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-left: 0;
 }
 
@@ -77,6 +82,7 @@ Text Domain:  accelerate-theme-child
     text-align: center;
     font-weight: 500;
     margin-top: 1.375em;
+    margin-bottom: 1.5em;
 }
 
 /* Section: Featured Blog Posts */
@@ -151,4 +157,22 @@ Text Domain:  accelerate-theme-child
 .case-study-main img {
     width: 100%;
     height: auto;
+}
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (min-width: 600px) {
+    .featured-work ul {
+        justify-content: space-around;
+    }
+
+    .featured-work li {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .featured-work ul {
+        flex-wrap: nowrap;
+    }
 }
