@@ -18,6 +18,10 @@ Text Domain:  accelerate-theme-child
     display: table;
 }
 
+input[type=button] {
+    background-color: #45ab9d;
+}
+
 /********** HEADER / FOOTER **********/
 
 .social-media-menu {
@@ -157,6 +161,35 @@ Text Domain:  accelerate-theme-child
 .case-study-main img {
     width: 100%;
     height: auto;
+}
+
+/********** CONTACT PAGE **********/
+
+.page-id-47350 .site-content {
+    width: 610px;
+}
+
+.page-id-47350 h2 {
+    font-size: 1.625em;
+    font-family: 'Montserrat';
+}
+
+.page-id-47350 .nf-form-fields-required,
+.page-id-47350 .ninja-forms-req-symbol {
+    display: none;
+}
+
+.page-id-47350 .nf-field-label {
+    font-size: 0.875em;
+}
+
+.send-element {
+    float: right;
+    width: 200px;
+}
+
+.contact-prompt{
+    margin-bottom: 2.875em;
 }
 
 /********** MEDIA QUERIES **********/
