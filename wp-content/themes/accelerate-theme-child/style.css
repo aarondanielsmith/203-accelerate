@@ -192,6 +192,115 @@ input[type=button] {
     margin-bottom: 2.875em;
 }
 
+/********** ABOUT PAGE **********/
+
+.about-page .main-content {
+    padding: 0;
+}
+
+.about-header {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 18em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header h2 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+}
+
+.about-services-overview {
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.about-services-overview h4 {
+    text-transform: uppercase;
+    font-size: 0.9375em;
+    text-align: center;
+}
+
+.about-services-overview p {
+    text-align: center;
+}
+
+.about-service {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.about-service:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.about-service aside {
+    width: 70%;
+}
+
+.about-service h3 {
+    font-size: 1.5625em;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    margin-top: 0;
+}
+
+.about-service p {
+    margin-bottom: 0;
+}
+
+.about-page .contact {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page .contact h3 {
+    margin: 0 2.5em;
+    font-family: 'Open Sans';
+}
+
+/********** 404 PAGE **********/
+
+.error-404 .image {
+    background: url("img/404.png") no-repeat scroll center center / contain rgba(0, 0, 0, 0);
+    width: 100%;
+    padding-top: 400px;
+    margin-bottom: 2.5em;
+}
+
+.error-404 h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 7em;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.error-404 a {
+    color: #45ab9d;
+    font-weight: bold;
+}
+
+.error-404 p {
+    text-align: center;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-size: 1.25em;
+}
+
 /********** MEDIA QUERIES **********/
 
 @media screen and (min-width: 600px) {
